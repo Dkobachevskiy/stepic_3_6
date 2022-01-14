@@ -1,4 +1,4 @@
-link = f" http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/."
+link = "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/."
 
 
 def test_basket_button(browser):

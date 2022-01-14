@@ -22,7 +22,7 @@ def browser(request):
     if user_language:
         browser = webdriver.Chrome(options=options)
         browser.implicitly_wait(5)
-        time.sleep(3)
+        time.sleep(30)
     else:
         raise pytest.UsageError("please choose --language from list: ar, ca, cs, da, de, en-gb, el, es, fi, fr, it, ko, nl, pl, pt, pt-br, ro, ru, sk, uk, zh-hans")
     print("\nstart chrome browser for test..")
